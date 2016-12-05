@@ -1,0 +1,31 @@
+{
+    "name": "masz/facebook-page-component",
+    "type": "library",
+    "description": "Komponenta pro čtění facebook stránky, založena na easy facebook feed wp plugin",
+    "keywords": ["facebook", "page"],
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Martin Szöllös",
+            "email": "sasa.szollos@gmail.cz"
+        }
+    ],
+    "support": {
+        "email": "martin.szollos@gmail.com"
+    },
+    "require": {
+        "nette/nette": "~2.2"
+    },
+    "require-dev": {
+        "nette/nette": "~2.2@dev",
+        "nette/tester": "~1.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "facebook-page-component\\": "src"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
