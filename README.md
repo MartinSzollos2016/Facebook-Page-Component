@@ -1,6 +1,8 @@
 #Facebook page Component
 
-Komponenta pro získávání feedu z facebook stránky
+Nette komponenta pro získávání feedu z facebook stránky.
+
+Založeno na https://cs.wordpress.org/plugins/easy-facebook-feed/
 
 - Instalace
 
